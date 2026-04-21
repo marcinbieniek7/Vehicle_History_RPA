@@ -1,0 +1,68 @@
+{
+  "name": "Vehicle_History_GOV",
+  "projectId": "f3594dfb-fc53-479a-8d8f-af082b987bfe",
+  "description": "A Proof of Concept project for extracting data from the gov.pl service. It is strictly for non-commercial use and operates on a minimal dataset to prevent unnecessary load on public servers.\r\n\r\nProjekt PoC obejmujący ekstrakcję danych pojazdu z państwowego serwisu gov.pl. \r\nProjekt nie jest stworzony w celach komercyjnych, wykorzystuje minimalny zestaw danych aby uniknąć niepotrzebnego obciążania serwerów państwowych. \r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.Activities": "[3.1.0-preview]",
+    "UiPath.Excel.Activities": "[3.5.0-preview]",
+    "UiPath.Mail.Activities": "[2.8.10]",
+    "UiPath.System.Activities": "[26.2.4]",
+    "UiPath.Testing.Activities": "[25.10.2]",
+    "UiPath.UIAutomation.Activities": "[26.4.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.180.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c6f081f5-17d7-431a-88e8-a5466663a777",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DataProcessing\\PdfReportDownload.xaml",
+      "uniqueId": "445f3174-4960-4608-abf8-29093deb42c1",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "DataProcessing\\PdfReportDownload.xaml",
+      "uniqueId": "445f3174-4960-4608-abf8-29093deb42c1",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_TransactionItem": {
+            "type": "object",
+            "properties": {
+              "Id": {
+                "type": "integer",
+                "minimum": -9223372036854775808,
+                "maximum": 9223372036854775807
+              },
+              "Progress": {
+                "type": "string"
+              },
+              "SpecificContent": {
+                "$ref": "#/$defs/dictionaryOfStringAndObject"
+              },
+              "Reference": {
+                "type": "string"
+              },
+              "QueueName": {
+                "type": "string"
+              },
+              "RetryNo": {
+                "type": "integer",
+                "minimum": -2147483648,
+                "maximum": 2147483647
+              },
+              "Status": {
+                "enum": [
+                  "New",
+                  "InProgress",
+                  "Failed",
+                  "Successful",
+                  "Abandoned",
+                  "Retried",
+                  "Deleted"
+                ]
+              },
+              "LastProcessingOn": {
+                "type": "string"
+              },
+              "ItemKey": {
+                "$ref": "#/$defs/guid"
+              },
+              "QueueDefinitionId": {
+                "$ref": "#/$defs/integer"
+              },
+              "AssignedTo": {
+                "type": "string"
+              },
+              "Priority": {
+                "enum": [
+                  "High",
+                  "Normal",
+                  "Low"
+                ]
+              },
+              "RowVersion": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 255
+                }
+              },
+              "ProcessingException": {
+                "type": "object",
+                "properties": {
+                  "Reason": {
+                    "type": "string"
+                  },
+                  "Details": {
+                    "type": "string"
+                  },
+                  "Type": {
+                    "enum": [
+                      "ApplicationException",
+                      "BusinessException"
+                    ]
+                  },
+                  "AssociatedImageFilePath": {
+                    "type": "string"
+                  },
+                  "Id": {
+                    "$ref": "#/$defs/integer"
+                  },
+                  "CreationTime": {
+                    "$ref": "#/$defs/nullableOfDateTime"
+                  }
+                }
+              },
+              "StartTransactionTime": {
+                "$ref": "#/$defs/nullableOfDateTime"
+              },
+              "ReviewStatus": {
+                "type": "string"
+              },
+              "Output": {
+                "$ref": "#/$defs/dictionaryOfStringAndObject"
+              },
+              "DueDate": {
+                "$ref": "#/$defs/nullableOfDateTime"
+              },
+              "DeferDate": {
+                "$ref": "#/$defs/nullableOfDateTime"
+              },
+              "ParentOperationId": {
+                "type": "string"
+              },
+              "UniqueKey": {
+                "type": "string",
+                "format": "uuid"
+              }
+            },
+            "$defs": {
+              "integer": {
+                "type": "integer",
+                "minimum": -9223372036854775808,
+                "maximum": 9223372036854775807
+              },
+              "dictionaryOfStringAndObject": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object"
+                }
+              },
+              "guid": {
+                "type": "string",
+                "format": "uuid"
+              },
+              "nullableOfDateTime": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          },
+          "in_Config": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object"
+            }
+          }
+        },
+        "required": [
+          "in_TransactionItem",
+          "in_Config"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "out_PdfPath": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c6f081f5-17d7-431a-88e8-a5466663a777",
+      "type": "process"
+    }
+  ]
+}

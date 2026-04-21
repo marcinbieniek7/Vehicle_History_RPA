@@ -1,0 +1,6 @@
+{
+  "Name": "Vehicle_History_GOV_Dispatcher",
+  "ProjectType": "Process",
+  "Description": "Dispatcher process for the Vehicle_History_GOV project. Reads input data from a local CSV file and populates the UiPath Orchestrator Queue for further processing.\r\n\r\nDispatcher do Vehicle_History_GOV project. Wczytuje dane z lokalnego pliku CSV  i przekazuje je do kolejek Orchestratora do dalszego przetwarzania.",
+  "MainFile": "Main.xaml"
+}

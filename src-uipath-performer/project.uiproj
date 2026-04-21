@@ -1,0 +1,6 @@
+{
+  "Name": "Vehicle_History_GOV",
+  "ProjectType": "Process",
+  "Description": "A Proof of Concept project for extracting data from the gov.pl service. It is strictly for non-commercial use and operates on a minimal dataset to prevent unnecessary load on public servers.\r\n\r\nProjekt PoC obejmujący ekstrakcję danych pojazdu z państwowego serwisu gov.pl. \r\nProjekt nie jest stworzony w celach komercyjnych, wykorzystuje minimalny zestaw danych aby uniknąć niepotrzebnego obciążania serwerów państwowych. \r\n",
+  "MainFile": "Main.xaml"
+}

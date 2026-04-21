@@ -1,0 +1,6 @@
+Date, Registration Number, Status, Details
+2026-04-21,SampleRegistration1,Success,Vehicle checked successfully
+2026-04-21,SampleRegistration2,Business Exception,Next inspection date is empty; maybe there was a change to PDF schema
+2026-04-21,SampleRegistration3,Success,Vehicle checked successfully
+2026-04-21,SampleRegistration4,Success,Vehicle checked successfully
+2026-04-21,SampleRegistration5,Business Exception,Next inspection date is empty; maybe there was a change to PDF schema

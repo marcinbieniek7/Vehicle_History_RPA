@@ -1,0 +1,2605 @@
+04/21/2026 11:41:41 => [Trace] Execution started for file: Main
+04/21/2026 11:41:41 => [Information] Vehicle_History_GOV execution started
+{
+  "message": "Vehicle_History_GOV execution started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:41:41",
+  "fileName": "Main",
+  "initiatedBy": "Studio",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:41 => [Information] The primary screen resolution is: 2560 x 1440
+{
+  "message": "The primary screen resolution is: 2560 x 1440",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:41",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:41 => [Trace] Initializing settings...
+{
+  "message": "Initializing settings...",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:41",
+  "fileName": "InitAllSettings",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Killing processes from config
+{
+  "message": "Killing processes from config",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Process: Chrome was killed
+{
+  "message": "Process: Chrome was killed",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Process: Excel was killed
+{
+  "message": "Process: Excel was killed",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Finished killing processes from config
+{
+  "message": "Finished killing processes from config",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Initalizing Settings
+{
+  "message": "Initalizing Settings",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "InitAllApplications",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Trace] Initalizing settings was finished
+{
+  "message": "Initalizing settings was finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "InitAllApplications",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:42 => [Information] Transaction Started
+{
+  "message": "Transaction Started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:41:42",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Started",
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "fa7d9752-ff3d-4412-a259-eb4fd38b42d2",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:41:42 => [Information] Transaction Item with registration number: SAMPLEREGISTRATION1 was retrieved
+{
+  "message": "Transaction Item with registration number: SAMPLEREGISTRATION1 was retrieved",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "fa7d9752-ff3d-4412-a259-eb4fd38b42d2",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:41:42 => [Information] Processing Transaction Number: 1
+{
+  "message": "Processing Transaction Number: 1",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:42 => [Trace] Started Process
+{
+  "message": "Started Process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:42",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:43 => [Trace] Started PdfReportDownload workflow
+{
+  "message": "Started PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:43",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:43 => [Trace] Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search
+{
+  "message": "Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:41:43",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "browserType": 2,
+  "auditMessage": true,
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261",
+  "activityType": "Use Browser",
+  "targetUrl": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search"
+}
+04/21/2026 11:41:43 => [Information] Healing agent configuration.
+{
+  "message": "Healing agent configuration.",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:41:43",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "healingAgentConfig": {
+    "orchestratorEnableHeal": false,
+    "orchestratorEnableAnalysis": false
+  },
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:45 => [Trace] Input field appeared - website is ready for input data
+{
+  "message": "Input field appeared - website is ready for input data",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:45",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:45 => [Trace] Started data entry
+{
+  "message": "Started data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:45",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:48 => [Trace] Finished data entry
+{
+  "message": "Finished data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:48",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:49 => [Trace] Vehicle was found in government database
+{
+  "message": "Vehicle was found in government database",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:49",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:49 => [Trace] Initiating PDF download. Waiting for the file to be saved
+{
+  "message": "Initiating PDF download. Waiting for the file to be saved",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:49",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:53 => [Information] File was successfully downloaded and moved to: Data\Output\PDFs\SAMPLEREGISTRATION1.pdf
+{
+  "message": "File was successfully downloaded and moved to: Data\\Output\\PDFs\\SAMPLEREGISTRATION1.pdf",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:53",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:53 => [Trace] Finished PdfReportDownload workflow
+{
+  "message": "Finished PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:53",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:53 => [Trace] Started PdfDataExtraction workflow
+{
+  "message": "Started PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:53",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:53 => [Trace] {"activityName":"UiPath.DocumentUnderstanding.Activities.ExtractPdfText","org":"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4","tenant":"c4624780-ebc6-4432-8008-b3da43e87f36","user":"","file":"Data\\Output\\PDFs\\SAMPLEREGISTRATION1.pdf"}
+{
+  "message": "{\"activityName\":\"UiPath.DocumentUnderstanding.Activities.ExtractPdfText\",\"org\":\"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4\",\"tenant\":\"c4624780-ebc6-4432-8008-b3da43e87f36\",\"user\":\"\",\"file\":\"Data\\\\Output\\\\PDFs\\\\SAMPLEREGISTRATION1.pdf\"}",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:41:53",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Information] Next inspection date for: SAMPLEREGISTRATION1 is: 01.08.2026
+{
+  "message": "Next inspection date for: SAMPLEREGISTRATION1 is: 01.08.2026",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Information] Insurance expiry date for: SAMPLEREGISTRATION1 is: 30.06.2026
+{
+  "message": "Insurance expiry date for: SAMPLEREGISTRATION1 is: 30.06.2026",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Information] Registration document status for: SAMPLEREGISTRATION1 is: odebrany
+{
+  "message": "Registration document status for: SAMPLEREGISTRATION1 is: odebrany",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Trace] finished PdfDataExtraction workflow
+{
+  "message": "finished PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Trace] NotificationLogic started
+{
+  "message": "NotificationLogic started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Trace] There was no alert for: SAMPLEREGISTRATION1 , no need for email notification
+{
+  "message": "There was no alert for: SAMPLEREGISTRATION1 , no need for email notification",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Trace] NotificationLogic finished
+{
+  "message": "NotificationLogic finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:54 => [Trace] Delay 5s for avoiding server overload
+{
+  "message": "Delay 5s for avoiding server overload",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:54",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:59 => [Trace] Finished process
+{
+  "message": "Finished process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-cb357c46949043d2b909bc0fa1c33261"
+}
+04/21/2026 11:41:59 => [Information] Transaction Ended
+{
+  "message": "Transaction Ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:41:59",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Ended",
+  "transactionExecutionTime": 16.5729476,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "fa7d9752-ff3d-4412-a259-eb4fd38b42d2",
+  "queueItemPriority": "Normal",
+  "processingExceptionReason": "",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "queueName": "VehicleHistoryQueue",
+  "processingExceptionType": "",
+  "queueItemReviewStatus": "None",
+  "transactionStatus": "System.Activities.InArgument`1[UiPath.Core.ProcessingStatus]"
+}
+04/21/2026 11:41:59 => [Trace] UpdateCSVReport started
+{
+  "message": "UpdateCSVReport started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:59 => [Trace] UpdateCSVReport finished
+{
+  "message": "UpdateCSVReport finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:59 => [Information] Transaction Successful.
+{
+  "message": "Transaction Successful.",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "logF_TransactionNumber": "1",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "logF_TransactionStatus": "Success"
+}
+04/21/2026 11:41:59 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:41:59 => [Information] Transaction Started
+{
+  "message": "Transaction Started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:41:59",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Started",
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "2c8d6799-f92f-4616-91a4-bdf3bd3ce39b",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:41:59 => [Information] Transaction Item with registration number: SAMPLEREGISTRATION2 was retrieved
+{
+  "message": "Transaction Item with registration number: SAMPLEREGISTRATION2 was retrieved",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "2c8d6799-f92f-4616-91a4-bdf3bd3ce39b",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:41:59 => [Information] Processing Transaction Number: 2
+{
+  "message": "Processing Transaction Number: 2",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:41:59 => [Trace] Started Process
+{
+  "message": "Started Process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:41:59 => [Trace] Started PdfReportDownload workflow
+{
+  "message": "Started PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:41:59",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:41:59 => [Trace] Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search
+{
+  "message": "Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:41:59",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "browserType": 2,
+  "auditMessage": true,
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49",
+  "activityType": "Use Browser",
+  "targetUrl": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search"
+}
+04/21/2026 11:42:02 => [Trace] Input field appeared - website is ready for input data
+{
+  "message": "Input field appeared - website is ready for input data",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:02",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:02 => [Trace] Started data entry
+{
+  "message": "Started data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:02",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:06 => [Trace] Finished data entry
+{
+  "message": "Finished data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:06",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:07 => [Trace] Vehicle was found in government database
+{
+  "message": "Vehicle was found in government database",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:07",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:07 => [Trace] Initiating PDF download. Waiting for the file to be saved
+{
+  "message": "Initiating PDF download. Waiting for the file to be saved",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:07",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:10 => [Information] File was successfully downloaded and moved to: Data\Output\PDFs\SAMPLEREGISTRATION2.pdf
+{
+  "message": "File was successfully downloaded and moved to: Data\\Output\\PDFs\\SAMPLEREGISTRATION2.pdf",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:10",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Trace] Finished PdfReportDownload workflow
+{
+  "message": "Finished PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Trace] Started PdfDataExtraction workflow
+{
+  "message": "Started PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Trace] {"activityName":"UiPath.DocumentUnderstanding.Activities.ExtractPdfText","org":"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4","tenant":"c4624780-ebc6-4432-8008-b3da43e87f36","user":"","file":"Data\\Output\\PDFs\\SAMPLEREGISTRATION2.pdf"}
+{
+  "message": "{\"activityName\":\"UiPath.DocumentUnderstanding.Activities.ExtractPdfText\",\"org\":\"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4\",\"tenant\":\"c4624780-ebc6-4432-8008-b3da43e87f36\",\"user\":\"\",\"file\":\"Data\\\\Output\\\\PDFs\\\\SAMPLEREGISTRATION2.pdf\"}",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Error] Throw BRE out_ExtractedData("NextInspectionDate") is empty: Next inspection date is empty, maybe there was a change to PDF schema
+in BusinessLogic\PdfDataExtraction.xaml
+    at Throw "Throw BRE out_ExtractedData("NextInspectionDate") is empty"
+    at Sequence "Then throw BRE out_ExtractedData("NextInspectionDate") is empty"
+    at IfElseIfV2 "Else If out_ExtractedData("NextInspectionDate")"
+    at Sequence "Try extract document data"
+    at TryCatch "Try Catch extract document data"
+    at Sequence "PdfDataExtraction"
+    at PdfDataExtraction "PdfDataExtraction"
+{
+  "message": "Throw BRE out_ExtractedData(\"NextInspectionDate\") is empty: Next inspection date is empty, maybe there was a change to PDF schema\r\nin BusinessLogic\\PdfDataExtraction.xaml\r\n    at Throw \"Throw BRE out_ExtractedData(\"NextInspectionDate\") is empty\"\r\n    at Sequence \"Then throw BRE out_ExtractedData(\"NextInspectionDate\") is empty\"\r\n    at IfElseIfV2 \"Else If out_ExtractedData(\"NextInspectionDate\")\"\r\n    at Sequence \"Try extract document data\"\r\n    at TryCatch \"Try Catch extract document data\"\r\n    at Sequence \"PdfDataExtraction\"\r\n    at PdfDataExtraction \"PdfDataExtraction\"\r\n",
+  "level": "Error",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Error] PdfDataExtraction - Invoke Workflow File (Framework\PdfDataExtraction.xaml): Next inspection date is empty, maybe there was a change to PDF schema
+in Framework\Process.xaml
+    at InvokeWorkflowFile "PdfDataExtraction - Invoke Workflow File (Framework\PdfDataExtraction.xaml)"
+    at Sequence "Process"
+    at Process "Process"
+{
+  "message": "PdfDataExtraction - Invoke Workflow File (Framework\\PdfDataExtraction.xaml): Next inspection date is empty, maybe there was a change to PDF schema\r\nin Framework\\Process.xaml\r\n    at InvokeWorkflowFile \"PdfDataExtraction - Invoke Workflow File (Framework\\PdfDataExtraction.xaml)\"\r\n    at Sequence \"Process\"\r\n    at Process \"Process\"\r\n",
+  "level": "Error",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-93a6d7fd08b6406ba1d1c241c9a39c49"
+}
+04/21/2026 11:42:11 => [Information] Transaction Ended
+{
+  "message": "Transaction Ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Ended",
+  "transactionExecutionTime": 11.7207215,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "2c8d6799-f92f-4616-91a4-bdf3bd3ce39b",
+  "queueItemPriority": "Normal",
+  "processingExceptionReason": "Next inspection date is empty, maybe there was a change to PDF schema",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "queueName": "VehicleHistoryQueue",
+  "processingExceptionType": "BusinessException",
+  "queueItemReviewStatus": "None",
+  "transactionStatus": "System.Activities.InArgument`1[UiPath.Core.ProcessingStatus]"
+}
+04/21/2026 11:42:11 => [Trace] UpdateCSVReport started
+{
+  "message": "UpdateCSVReport started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:11 => [Trace] UpdateCSVReport finished
+{
+  "message": "UpdateCSVReport finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:11 => [Error] Business rule exception.Next inspection date is empty, maybe there was a change to PDF schema
+{
+  "message": "Business rule exception.Next inspection date is empty, maybe there was a change to PDF schema",
+  "level": "Error",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "logF_TransactionNumber": "2",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "logF_TransactionStatus": "BusinessException"
+}
+04/21/2026 11:42:11 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:11 => [Information] Transaction Started
+{
+  "message": "Transaction Started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Started",
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "17839ae6-4f5e-4a21-b361-a38fce9789ce",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:11 => [Information] Transaction Item with registration number: SAMPLEREGISTRATION3 was retrieved
+{
+  "message": "Transaction Item with registration number: SAMPLEREGISTRATION3 was retrieved",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "17839ae6-4f5e-4a21-b361-a38fce9789ce",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:11 => [Information] Processing Transaction Number: 3
+{
+  "message": "Processing Transaction Number: 3",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:11 => [Trace] Started Process
+{
+  "message": "Started Process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:11 => [Trace] Started PdfReportDownload workflow
+{
+  "message": "Started PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:11 => [Trace] Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search
+{
+  "message": "Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:11",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "browserType": 2,
+  "auditMessage": true,
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4",
+  "activityType": "Use Browser",
+  "targetUrl": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search"
+}
+04/21/2026 11:42:13 => [Trace] Input field appeared - website is ready for input data
+{
+  "message": "Input field appeared - website is ready for input data",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:13",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:13 => [Trace] Started data entry
+{
+  "message": "Started data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:13",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:17 => [Trace] Finished data entry
+{
+  "message": "Finished data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:17",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:17 => [Trace] Vehicle was found in government database
+{
+  "message": "Vehicle was found in government database",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:17",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:17 => [Trace] Initiating PDF download. Waiting for the file to be saved
+{
+  "message": "Initiating PDF download. Waiting for the file to be saved",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:17",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Information] File was successfully downloaded and moved to: Data\Output\PDFs\SAMPLEREGISTRATION3.pdf
+{
+  "message": "File was successfully downloaded and moved to: Data\\Output\\PDFs\\SAMPLEREGISTRATION3.pdf",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Trace] Finished PdfReportDownload workflow
+{
+  "message": "Finished PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Trace] Started PdfDataExtraction workflow
+{
+  "message": "Started PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Trace] {"activityName":"UiPath.DocumentUnderstanding.Activities.ExtractPdfText","org":"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4","tenant":"c4624780-ebc6-4432-8008-b3da43e87f36","user":"","file":"Data\\Output\\PDFs\\SAMPLEREGISTRATION3.pdf"}
+{
+  "message": "{\"activityName\":\"UiPath.DocumentUnderstanding.Activities.ExtractPdfText\",\"org\":\"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4\",\"tenant\":\"c4624780-ebc6-4432-8008-b3da43e87f36\",\"user\":\"\",\"file\":\"Data\\\\Output\\\\PDFs\\\\SAMPLEREGISTRATION3.pdf\"}",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Information] Next inspection date for: SAMPLEREGISTRATION3 is: 25.04.2027
+{
+  "message": "Next inspection date for: SAMPLEREGISTRATION3 is: 25.04.2027",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Information] Insurance expiry date for: SAMPLEREGISTRATION3 is: 24.04.2026
+{
+  "message": "Insurance expiry date for: SAMPLEREGISTRATION3 is: 24.04.2026",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Information] Registration document status for: SAMPLEREGISTRATION3 is: odebrany
+{
+  "message": "Registration document status for: SAMPLEREGISTRATION3 is: odebrany",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Trace] finished PdfDataExtraction workflow
+{
+  "message": "finished PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Trace] NotificationLogic started
+{
+  "message": "NotificationLogic started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:21 => [Warning] Days to insurance expirty left: 2 for: SAMPLEREGISTRATION3
+{
+  "message": "Days to insurance expirty left: 2 for: SAMPLEREGISTRATION3",
+  "level": "Warning",
+  "logType": "User",
+  "timeStamp": "11:42:21",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:22 => [Trace] Send email started to: Placeholder@receiver.com
+{
+  "message": "Send email started to: Placeholder@receiver.com",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:22",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:22 => [Information] Email with attachment: Data\Output\PDFs\SAMPLEREGISTRATION3.pdf was sent to: Placeholder@receiver.com
+{
+  "message": "Email with attachment: Data\\Output\\PDFs\\SAMPLEREGISTRATION3.pdf was sent to: Placeholder@receiver.com",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:22",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:22 => [Trace] Send Email finished
+{
+  "message": "Send Email finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:22",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:22 => [Trace] NotificationLogic finished
+{
+  "message": "NotificationLogic finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:22",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:22 => [Trace] Delay 5s for avoiding server overload
+{
+  "message": "Delay 5s for avoiding server overload",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:22",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:27 => [Trace] Finished process
+{
+  "message": "Finished process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c49a277f28d0415199b88169ba67a9b4"
+}
+04/21/2026 11:42:27 => [Information] Transaction Ended
+{
+  "message": "Transaction Ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:27",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Ended",
+  "transactionExecutionTime": 15.6136471,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "17839ae6-4f5e-4a21-b361-a38fce9789ce",
+  "queueItemPriority": "Normal",
+  "processingExceptionReason": "",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "queueName": "VehicleHistoryQueue",
+  "processingExceptionType": "",
+  "queueItemReviewStatus": "None",
+  "transactionStatus": "System.Activities.InArgument`1[UiPath.Core.ProcessingStatus]"
+}
+04/21/2026 11:42:27 => [Trace] UpdateCSVReport started
+{
+  "message": "UpdateCSVReport started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:27 => [Trace] UpdateCSVReport finished
+{
+  "message": "UpdateCSVReport finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:27 => [Information] Transaction Successful.
+{
+  "message": "Transaction Successful.",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "logF_TransactionNumber": "3",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "logF_TransactionStatus": "Success"
+}
+04/21/2026 11:42:27 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:27 => [Information] Transaction Started
+{
+  "message": "Transaction Started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:27",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Started",
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "45e3bb8a-1b21-4ec2-8a36-2826e4b571c8",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:27 => [Information] Transaction Item with registration number: SAMPLEREGISTRATION4 was retrieved
+{
+  "message": "Transaction Item with registration number: SAMPLEREGISTRATION4 was retrieved",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "45e3bb8a-1b21-4ec2-8a36-2826e4b571c8",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:27 => [Information] Processing Transaction Number: 4
+{
+  "message": "Processing Transaction Number: 4",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:27 => [Trace] Started Process
+{
+  "message": "Started Process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:27 => [Trace] Started PdfReportDownload workflow
+{
+  "message": "Started PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:27",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:27 => [Trace] Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search
+{
+  "message": "Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:27",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "browserType": 2,
+  "auditMessage": true,
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78",
+  "activityType": "Use Browser",
+  "targetUrl": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search"
+}
+04/21/2026 11:42:29 => [Trace] Input field appeared - website is ready for input data
+{
+  "message": "Input field appeared - website is ready for input data",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:29",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:29 => [Trace] Started data entry
+{
+  "message": "Started data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:29",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:32 => [Trace] Finished data entry
+{
+  "message": "Finished data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:32",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:33 => [Trace] Vehicle was found in government database
+{
+  "message": "Vehicle was found in government database",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:33",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:33 => [Trace] Initiating PDF download. Waiting for the file to be saved
+{
+  "message": "Initiating PDF download. Waiting for the file to be saved",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:33",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Information] File was successfully downloaded and moved to: Data\Output\PDFs\SAMPLEREGISTRATION4.pdf
+{
+  "message": "File was successfully downloaded and moved to: Data\\Output\\PDFs\\SAMPLEREGISTRATION4.pdf",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] Finished PdfReportDownload workflow
+{
+  "message": "Finished PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] Started PdfDataExtraction workflow
+{
+  "message": "Started PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] {"activityName":"UiPath.DocumentUnderstanding.Activities.ExtractPdfText","org":"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4","tenant":"c4624780-ebc6-4432-8008-b3da43e87f36","user":"","file":"Data\\Output\\PDFs\\SAMPLEREGISTRATION4.pdf"}
+{
+  "message": "{\"activityName\":\"UiPath.DocumentUnderstanding.Activities.ExtractPdfText\",\"org\":\"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4\",\"tenant\":\"c4624780-ebc6-4432-8008-b3da43e87f36\",\"user\":\"\",\"file\":\"Data\\\\Output\\\\PDFs\\\\SAMPLEREGISTRATION4.pdf\"}",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Information] Next inspection date for: SAMPLEREGISTRATION4 is: 14.04.2026
+{
+  "message": "Next inspection date for: SAMPLEREGISTRATION4 is: 14.04.2026",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Information] Insurance expiry date for: SAMPLEREGISTRATION4 is: 30.03.2027
+{
+  "message": "Insurance expiry date for: SAMPLEREGISTRATION4 is: 30.03.2027",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Information] Registration document status for: SAMPLEREGISTRATION4 is: odebrany
+{
+  "message": "Registration document status for: SAMPLEREGISTRATION4 is: odebrany",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] finished PdfDataExtraction workflow
+{
+  "message": "finished PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] NotificationLogic started
+{
+  "message": "NotificationLogic started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Warning] Days to inspection left: -7 for: SAMPLEREGISTRATION4
+{
+  "message": "Days to inspection left: -7 for: SAMPLEREGISTRATION4",
+  "level": "Warning",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] Send email started to: Placeholder@receiver.com
+{
+  "message": "Send email started to: Placeholder@receiver.com",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Information] Email with attachment: Data\Output\PDFs\SAMPLEREGISTRATION4.pdf was sent to: Placeholder@receiver.com
+{
+  "message": "Email with attachment: Data\\Output\\PDFs\\SAMPLEREGISTRATION4.pdf was sent to: Placeholder@receiver.com",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] Send Email finished
+{
+  "message": "Send Email finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "SendEmail",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] NotificationLogic finished
+{
+  "message": "NotificationLogic finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "NotificationLogic",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:36 => [Trace] Delay 5s for avoiding server overload
+{
+  "message": "Delay 5s for avoiding server overload",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:36",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:41 => [Trace] Finished process
+{
+  "message": "Finished process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-c34ee94f0a6b40349092001465b73f78"
+}
+04/21/2026 11:42:41 => [Information] Transaction Ended
+{
+  "message": "Transaction Ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:41",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Ended",
+  "transactionExecutionTime": 14.3902473,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "45e3bb8a-1b21-4ec2-8a36-2826e4b571c8",
+  "queueItemPriority": "Normal",
+  "processingExceptionReason": "",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "queueName": "VehicleHistoryQueue",
+  "processingExceptionType": "",
+  "queueItemReviewStatus": "None",
+  "transactionStatus": "System.Activities.InArgument`1[UiPath.Core.ProcessingStatus]"
+}
+04/21/2026 11:42:41 => [Trace] UpdateCSVReport started
+{
+  "message": "UpdateCSVReport started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:41 => [Trace] UpdateCSVReport finished
+{
+  "message": "UpdateCSVReport finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:41 => [Information] Transaction Successful.
+{
+  "message": "Transaction Successful.",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "logF_TransactionNumber": "4",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "logF_TransactionStatus": "Success"
+}
+04/21/2026 11:42:41 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:41 => [Information] Transaction Started
+{
+  "message": "Transaction Started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:41",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Started",
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "1d300e79-aff1-4589-a44b-39252f9ed57c",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:41 => [Information] Transaction Item with registration number: SAMPLEREGISTRATION5 was retrieved
+{
+  "message": "Transaction Item with registration number: SAMPLEREGISTRATION5 was retrieved",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "1d300e79-aff1-4589-a44b-39252f9ed57c",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406",
+  "queueName": "VehicleHistoryQueue"
+}
+04/21/2026 11:42:41 => [Information] Processing Transaction Number: 5
+{
+  "message": "Processing Transaction Number: 5",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:41 => [Trace] Started Process
+{
+  "message": "Started Process",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:41 => [Trace] Started PdfReportDownload workflow
+{
+  "message": "Started PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:41",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:41 => [Trace] Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search
+{
+  "message": "Audit: Using Web App. Browser: Chrome URL: https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:41",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "browserType": 2,
+  "auditMessage": true,
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406",
+  "activityType": "Use Browser",
+  "targetUrl": "https://moj.gov.pl/nforms/engine/ng/index?xFormsAppName=HistoriaPojazdu#/search"
+}
+04/21/2026 11:42:44 => [Trace] Input field appeared - website is ready for input data
+{
+  "message": "Input field appeared - website is ready for input data",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:44",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:44 => [Trace] Started data entry
+{
+  "message": "Started data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:44",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:47 => [Trace] Finished data entry
+{
+  "message": "Finished data entry",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:47",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:48 => [Trace] Vehicle was found in government database
+{
+  "message": "Vehicle was found in government database",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:48",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:48 => [Trace] Initiating PDF download. Waiting for the file to be saved
+{
+  "message": "Initiating PDF download. Waiting for the file to be saved",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:48",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:51 => [Information] File was successfully downloaded and moved to: Data\Output\PDFs\SAMPLEREGISTRATION5.pdf
+{
+  "message": "File was successfully downloaded and moved to: Data\\Output\\PDFs\\SAMPLEREGISTRATION5.pdf",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:51",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Trace] Finished PdfReportDownload workflow
+{
+  "message": "Finished PdfReportDownload workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "PdfReportDownload",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Trace] Started PdfDataExtraction workflow
+{
+  "message": "Started PdfDataExtraction workflow",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Trace] {"activityName":"UiPath.DocumentUnderstanding.Activities.ExtractPdfText","org":"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4","tenant":"c4624780-ebc6-4432-8008-b3da43e87f36","user":"","file":"Data\\Output\\PDFs\\SAMPLEREGISTRATION5.pdf"}
+{
+  "message": "{\"activityName\":\"UiPath.DocumentUnderstanding.Activities.ExtractPdfText\",\"org\":\"c2436fb3-faf3-4d31-9283-6bb6ecf2e4d4\",\"tenant\":\"c4624780-ebc6-4432-8008-b3da43e87f36\",\"user\":\"\",\"file\":\"Data\\\\Output\\\\PDFs\\\\SAMPLEREGISTRATION5.pdf\"}",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Error] Throw BRE out_ExtractedData("NextInspectionDate") is empty: Next inspection date is empty, maybe there was a change to PDF schema
+in BusinessLogic\PdfDataExtraction.xaml
+    at Throw "Throw BRE out_ExtractedData("NextInspectionDate") is empty"
+    at Sequence "Then throw BRE out_ExtractedData("NextInspectionDate") is empty"
+    at IfElseIfV2 "Else If out_ExtractedData("NextInspectionDate")"
+    at Sequence "Try extract document data"
+    at TryCatch "Try Catch extract document data"
+    at Sequence "PdfDataExtraction"
+    at PdfDataExtraction "PdfDataExtraction"
+{
+  "message": "Throw BRE out_ExtractedData(\"NextInspectionDate\") is empty: Next inspection date is empty, maybe there was a change to PDF schema\r\nin BusinessLogic\\PdfDataExtraction.xaml\r\n    at Throw \"Throw BRE out_ExtractedData(\"NextInspectionDate\") is empty\"\r\n    at Sequence \"Then throw BRE out_ExtractedData(\"NextInspectionDate\") is empty\"\r\n    at IfElseIfV2 \"Else If out_ExtractedData(\"NextInspectionDate\")\"\r\n    at Sequence \"Try extract document data\"\r\n    at TryCatch \"Try Catch extract document data\"\r\n    at Sequence \"PdfDataExtraction\"\r\n    at PdfDataExtraction \"PdfDataExtraction\"\r\n",
+  "level": "Error",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "PdfDataExtraction",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Error] PdfDataExtraction - Invoke Workflow File (Framework\PdfDataExtraction.xaml): Next inspection date is empty, maybe there was a change to PDF schema
+in Framework\Process.xaml
+    at InvokeWorkflowFile "PdfDataExtraction - Invoke Workflow File (Framework\PdfDataExtraction.xaml)"
+    at Sequence "Process"
+    at Process "Process"
+{
+  "message": "PdfDataExtraction - Invoke Workflow File (Framework\\PdfDataExtraction.xaml): Next inspection date is empty, maybe there was a change to PDF schema\r\nin Framework\\Process.xaml\r\n    at InvokeWorkflowFile \"PdfDataExtraction - Invoke Workflow File (Framework\\PdfDataExtraction.xaml)\"\r\n    at Sequence \"Process\"\r\n    at Process \"Process\"\r\n",
+  "level": "Error",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "Process",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "db504c978ba24e92a1f20c7929b72682-4bc2c58440fa48129a0176c0f49f4406"
+}
+04/21/2026 11:42:52 => [Information] Transaction Ended
+{
+  "message": "Transaction Ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "transactionState": "Ended",
+  "transactionExecutionTime": 10.7160012,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "transactionId": "1d300e79-aff1-4589-a44b-39252f9ed57c",
+  "queueItemPriority": "Normal",
+  "processingExceptionReason": "Next inspection date is empty, maybe there was a change to PDF schema",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "queueName": "VehicleHistoryQueue",
+  "processingExceptionType": "BusinessException",
+  "queueItemReviewStatus": "None",
+  "transactionStatus": "System.Activities.InArgument`1[UiPath.Core.ProcessingStatus]"
+}
+04/21/2026 11:42:52 => [Trace] UpdateCSVReport started
+{
+  "message": "UpdateCSVReport started",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Trace] UpdateCSVReport finished
+{
+  "message": "UpdateCSVReport finished",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "UpdateCSVReport",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Error] Business rule exception.Next inspection date is empty, maybe there was a change to PDF schema
+{
+  "message": "Business rule exception.Next inspection date is empty, maybe there was a change to PDF schema",
+  "level": "Error",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "SetTransactionStatus",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "logF_TransactionNumber": "5",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71",
+  "logF_TransactionStatus": "BusinessException"
+}
+04/21/2026 11:42:52 => [Information] Get the transaction item
+{
+  "message": "Get the transaction item",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Information] No Transaction Data
+{
+  "message": "No Transaction Data",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "GetTransactionData",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Information] Process finished due to no more transaction data
+{
+  "message": "Process finished due to no more transaction data",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "Main",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Trace] Killing processes from config
+{
+  "message": "Killing processes from config",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Trace] Process: Chrome was killed
+{
+  "message": "Process: Chrome was killed",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Trace] Process: Excel was killed
+{
+  "message": "Process: Excel was killed",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Trace] Finished killing processes from config
+{
+  "message": "Finished killing processes from config",
+  "level": "Trace",
+  "logType": "User",
+  "timeStamp": "11:42:52",
+  "fileName": "KillAllProcesses",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}
+04/21/2026 11:42:52 => [Information] Vehicle_History_GOV execution ended in: 00:01:10
+{
+  "message": "Vehicle_History_GOV execution ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "11:42:52",
+  "fileName": "Main",
+  "totalExecutionTimeInSeconds": 70,
+  "totalExecutionTime": "00:01:10",
+  "jobId": "",
+  "robotName": "",
+  "machineId": ,
+  "userKey": "",
+  "processVersion": "1.0.0",
+  "organizationUnitId": ,
+  "logF_BusinessProcessName": "Vehicle History - Data Extractor",
+  "businessOperationId": "5b7c096b139247afb20d2418b55d86b3-3e3ef242a8f64d968d7caaceba29fa71"
+}

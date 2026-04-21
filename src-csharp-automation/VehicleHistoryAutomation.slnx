@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="VehicleHistoryAutomation.Core/VehicleHistoryAutomation.Core.csproj" Id="7a56f94f-6d24-4126-a8e5-56196eb13d32" />
+  <Project Path="VehicleHistoryAutomation.Scraping/VehicleHistoryAutomation.Scraping.csproj" Id="bfaf78fa-0e72-4de5-b005-7a483cf33c14" />
+</Solution>

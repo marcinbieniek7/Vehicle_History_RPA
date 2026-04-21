@@ -1,0 +1,5 @@
+{
+  "OrchestratorQueueName": "VehicleHistoryQueue",
+  "OrchestratorFolderPath": "Vehicle_History_GOV",
+  "InputFilePath": "Data\\Input\\Vehicle_Data_Input.csv"
+}
