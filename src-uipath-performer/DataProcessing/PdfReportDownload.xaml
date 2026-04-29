@@ -124,28 +124,28 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="PdfReportDownload" sap:VirtualizedContainerService.HintSize="1551.2,4890.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="PdfReportDownload" sap:VirtualizedContainerService.HintSize="1218,3880.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message (started PdfReportDownload workflow)" sap:VirtualizedContainerService.HintSize="1551.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Started PdfReportDownload workflow&quot;]" />
-    <TryCatch DisplayName="Try Catch Download PDF report" sap:VirtualizedContainerService.HintSize="1551.2,4527.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <ui:LogMessage DisplayName="Log Message (started PdfReportDownload workflow)" sap:VirtualizedContainerService.HintSize="504,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Started PdfReportDownload workflow&quot;]" />
+    <TryCatch DisplayName="Try Catch Download PDF report" sap:VirtualizedContainerService.HintSize="504,3517.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Try download  PDF report" sap:VirtualizedContainerService.HintSize="1549.6,4240" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Try download  PDF report" sap:VirtualizedContainerService.HintSize="502.4,3230.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Historia pojazdu - Portal gov.pl" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1516,4180" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="f7496611-1299-4005-9fb6-c2409a90173e" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome Historia pojazdu - Portal gov.pl" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="468.8,3170.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="f7496611-1299-4005-9fb6-c2409a90173e" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do download PDF report" sap:VirtualizedContainerService.HintSize="1514.4,3985.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Do download PDF report" sap:VirtualizedContainerService.HintSize="467.2,2976" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="si:FileInfo" Name="downloadedFIle" />
                   </Sequence.Variables>
@@ -154,7 +154,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate Chrome to maximize" sap:VirtualizedContainerService.HintSize="1480.8,139.2" sap2010:WorkflowViewState.IdRef="Activate_1">
+                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate Chrome to maximize" sap:VirtualizedContainerService.HintSize="433.6,139.2" sap2010:WorkflowViewState.IdRef="Activate_1">
                     <ui:Activate.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="66cf0270-8762-4a44-873f-1054427abab7" InformativeScreenshot="964428295523613436457c5d32d71c69">
                         <ui:Target.TimeoutMS>
@@ -166,11 +166,10 @@
                       </ui:Target>
                     </ui:Activate.Target>
                   </ui:Activate>
-                  <uix:NGoToUrl DisplayName="Go To URL - GOV" sap:VirtualizedContainerService.HintSize="1480.8,122.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Url="[in_Config(&quot;GovWebsite&quot;).ToString()]" Version="V5" />
-                  <Pick DisplayName="Pick branch depending on what state is loaded" sap:VirtualizedContainerService.HintSize="1480.8,1066.4" sap2010:WorkflowViewState.IdRef="Pick_1">
+                  <Pick DisplayName="Pick branch depending on what state is loaded" sap:VirtualizedContainerService.HintSize="433.6,56.8" sap2010:WorkflowViewState.IdRef="Pick_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
@@ -263,8 +262,8 @@
                       <Throw DisplayName="Throw SE page failed to load before input" Exception="[New System.Exception(&quot;Page load timeout. The Vehicle History before input form failed to load within the expected number of seconds: &quot; + in_Config(&quot;Timeout&quot;).ToString())]" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Throw_1" />
                     </PickBranch>
                   </Pick>
-                  <ui:LogMessage DisplayName="Log Message (started data entry)" sap:VirtualizedContainerService.HintSize="1480.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Started data entry&quot;]" />
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT registrationNumber'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1480.8,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;RegistrationNumber&quot;).ToString().Trim()]" Version="V5">
+                  <ui:LogMessage DisplayName="Log Message (started data entry)" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;Started data entry&quot;]" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT registrationNumber'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;RegistrationNumber&quot;).ToString().Trim()]" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" CVScreenId="e57e0a11-3248-4942-a0c9-698267ab7db6" ContentHash="Gl9IkYJ53E2QufMYE4cCVA" DesignTimeRectangle="907, 1363, 638, 77" ElementType="InputBox" ElementVisibilityArgument="None" FullSelectorArgument="&lt;webctrl id='registrationNumber' type='text' aaname='Numer rejestracyjny ' /&gt;" FuzzyAccuracy="1" Guid="9faed560-4e7e-45fb-988a-2cb3b47de8b4" InformativeScreenshot="56a7d5c5694c37817f3ee3fa557bed4d.jpg" Reference="WfjwHoJUbEykUhEIAmGt7g/Hoaj1D6jeEGj6-Y58RJ40w" ScopeSelectorArgument="&lt;html app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
                     </uix:NTypeInto.Target>
@@ -279,7 +278,7 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT VINNumber'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1480.8,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;VIN&quot;).ToString().Trim()]" Version="V5">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT VINNumber'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;VIN&quot;).ToString().Trim()]" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" ContentHash="i2HrKJqVgEaqcGHDRSyHZw" DesignTimeRectangle="907, 1554, 638, 77" ElementType="InputBox" ElementVisibilityArgument="None" FullSelectorArgument="&lt;webctrl id='VINNumber' /&gt;" Guid="a0981c22-ab91-4332-a1da-6e597ddab068" InformativeScreenshot="6b0ce09221849c2e432357e279569fce.jpg" Reference="WfjwHoJUbEykUhEIAmGt7g/OwCL1HSdykST8jRhsKK0wg" ScopeSelectorArgument="&lt;html app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
                     </uix:NTypeInto.Target>
@@ -294,7 +293,7 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT firstRegistration…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1480.8,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;FirstRegistrationDate&quot;).ToString().Trim()]" Version="V5">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT firstRegistration…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Text="[in_TransactionItem.SpecificContent(&quot;FirstRegistrationDate&quot;).ToString().Trim()]" Version="V5">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" ContentHash="Fqtt199A_0ultoSnCyaWhQ" DesignTimeRectangle="907, 1744, 638, 77" ElementType="InputBox" ElementVisibilityArgument="None" FullSelectorArgument="&lt;webctrl id='firstRegistrationDate' /&gt;" Guid="09e8caa4-e926-49d0-9233-69a5c9930f3b" InformativeScreenshot="d6f2f39e70d8355a6e5d8b9fb386273a.jpg" Reference="WfjwHoJUbEykUhEIAmGt7g/kqUtDX_k7U2jkUnhrfGdLw" ScopeSelectorArgument="&lt;html app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
                     </uix:NTypeInto.Target>
@@ -309,7 +308,7 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sprawdź pojazd'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1480.8,265.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sprawdź pojazd'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="433.6,265.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="moj.gov.pl/nforms/engine/ng/index" ContentHash="q8zi49WeZ0uRy917TzY0Ug" DesignTimeRectangle="907, 1919, 638, 77" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sprawdź pojazd ' innertext='Sprawdź pojazd ' /&gt;" Guid="176c7ed0-f31c-44dc-8590-0c7ab9c7fb02" InformativeScreenshot="6f02df368bfa89980cdb3ec664b28846.jpg" Reference="WfjwHoJUbEykUhEIAmGt7g/5C8OgQK9dka7mzaoGNrdoA" ScopeSelectorArgument="&lt;html app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                     </uix:NClick.Target>
@@ -327,8 +326,8 @@
                       </uix:VerifyExecutionOptions>
                     </uix:NClick.VerifyOptions>
                   </uix:NClick>
-                  <ui:LogMessage DisplayName="Log Message (finished data entry)" sap:VirtualizedContainerService.HintSize="1480.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Finished data entry&quot;]" />
-                  <Pick DisplayName="Pick branch depending if vehicle is found" sap:VirtualizedContainerService.HintSize="1480.8,56.8" sap2010:WorkflowViewState.IdRef="Pick_2">
+                  <ui:LogMessage DisplayName="Log Message (finished data entry)" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Finished data entry&quot;]" />
+                  <Pick DisplayName="Pick branch depending if vehicle is found" sap:VirtualizedContainerService.HintSize="433.6,56.8" sap2010:WorkflowViewState.IdRef="Pick_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -398,8 +397,8 @@
                       <Throw DisplayName="Throw SE page failed to load after input" Exception="[New System.Exception(&quot;Page load timeout. The Vehicle History before input form failed to load within the expected number of seconds: &quot; + in_Config(&quot;Timeout&quot;).ToString())]" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Throw_3" />
                     </PickBranch>
                   </Pick>
-                  <ui:LogMessage DisplayName="Log Message (initiating download)" sap:VirtualizedContainerService.HintSize="1480.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;Initiating PDF download. Waiting for the file to be saved&quot;]" />
-                  <ui:GetLastDownloadedFile FileResource="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download PDF report" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[downloadedFIle]" sap:VirtualizedContainerService.HintSize="1480.8,483.2" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1" IgnoreFiles="tmp, dwn, crdownload">
+                  <ui:LogMessage DisplayName="Log Message (initiating download)" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace" Message="[&quot;Initiating PDF download. Waiting for the file to be saved&quot;]" />
+                  <ui:GetLastDownloadedFile FileResource="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download PDF report" DownloadFolder="[System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), &quot;Downloads&quot;)]" File="[downloadedFIle]" sap:VirtualizedContainerService.HintSize="433.6,483.2" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1" IgnoreFiles="tmp, dwn, crdownload">
                     <ui:GetLastDownloadedFile.Body>
                       <ActivityAction>
                         <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Verification is the downloaded pdf file" ClickType="Single" DisplayName="Click 'Pobierz raport PDF'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="400,192.8" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Timeout="[cint(in_Config(&quot;DownloadTimeout&quot;))]" Version="V5">
@@ -415,7 +414,7 @@
                       </ActivityAction>
                     </ui:GetLastDownloadedFile.Body>
                   </ui:GetLastDownloadedFile>
-                  <Assign DisplayName="Assign destinationPath" sap:VirtualizedContainerService.HintSize="1480.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign DisplayName="Assign destinationPath" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[out_PdfPath]</OutArgument>
                     </Assign.To>
@@ -423,8 +422,9 @@
                       <InArgument x:TypeArguments="x:String">[System.IO.Path.Combine(in_Config("PdfsFolderPath").ToString(), in_TransactionItem.SpecificContent("RegistrationNumber").ToString().Trim() + ".pdf")]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[out_PdfPath]" DisplayName="Move File to destination folder" sap:VirtualizedContainerService.HintSize="1480.8,192" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[downloadedFIle.FullName]" />
-                  <ui:LogMessage DisplayName="Log Message (succesfully downloaded file)" sap:VirtualizedContainerService.HintSize="1480.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;File was successfully downloaded and moved to: &quot; + out_PdfPath]" />
+                  <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[out_PdfPath]" DisplayName="Move File to destination folder" sap:VirtualizedContainerService.HintSize="433.6,192" sap2010:WorkflowViewState.IdRef="MoveFile_1" Overwrite="True" Path="[downloadedFIle.FullName]" />
+                  <ui:LogMessage DisplayName="Log Message (succesfully downloaded file)" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;File was successfully downloaded and moved to: &quot; + out_PdfPath]" />
+                  <uix:NGoToUrl DisplayName="Go To URL - GOV" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" ScopeIdentifier="f7496611-1299-4005-9fb6-c2409a90173e" Url="[in_Config(&quot;GovWebsite&quot;).ToString()]" Version="V5" />
                 </Sequence>
               </ActivityAction>
             </uix:NApplicationCard.Body>
@@ -454,7 +454,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body BRE log and rethrow" sap:VirtualizedContainerService.HintSize="1549.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Body BRE log and rethrow" sap:VirtualizedContainerService.HintSize="502.4,24.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -471,7 +471,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body BRE log and rethrow" sap:VirtualizedContainerService.HintSize="1549.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <Sequence DisplayName="Body BRE log and rethrow" sap:VirtualizedContainerService.HintSize="502.4,24.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -485,7 +485,7 @@
         </Catch>
       </TryCatch.Catches>
       <TryCatch.Finally>
-        <Sequence DisplayName="Finally nothing" sap:VirtualizedContainerService.HintSize="1549.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Finally nothing" sap:VirtualizedContainerService.HintSize="502.4,24.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -495,6 +495,6 @@
         </Sequence>
       </TryCatch.Finally>
     </TryCatch>
-    <ui:LogMessage DisplayName="Log Message (finished PdfReportDownload workflow)" sap:VirtualizedContainerService.HintSize="1551.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Trace" Message="[&quot;Finished PdfReportDownload workflow&quot;]" />
+    <ui:LogMessage DisplayName="Log Message (finished PdfReportDownload workflow)" sap:VirtualizedContainerService.HintSize="504,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Trace" Message="[&quot;Finished PdfReportDownload workflow&quot;]" />
   </Sequence>
 </Activity>
